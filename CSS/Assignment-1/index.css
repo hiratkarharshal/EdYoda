@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.header-logo,.nav-item,.header-button{
+    display: inline-block;
+}
+.header-logo{
+    margin:9px 0 0 32px;
+}
+.header-div{
+    position: relative;
+}
+.nav-item{
+    width: 43%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 30%;
+    left: 24%;
+}
+.nav-value{
+    text-decoration: none;
+    opacity: 0.5;
+}
+.nav-value:hover{
+    opacity: 1;
+    font-weight: 800;
+    border-bottom: 3px solid blue;
+}
+.header-button{
+    position: absolute;
+    right: 3%;
+    top: 17%;
+}
+#button-header{
+    border-radius: 17px;
+    padding: 14px;
+    background-color: #FFD8DB;
+    color: #A389CC;
+    cursor: pointer;
+    border: 1px solid #FFD8DB;
+}
+.main-section{
+    display: inline-block;
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 5%;
+    position: sticky;
+    top:50px;
+}
+.main-section div{
+    display: inline-block;
+}
+.section1{
+    width: 49%;
+}
+.section2{
+    width: 49%;
+    position: sticky;
+    top: 5%;
+}
+.sectiontext{
+    font-size: 24px;
+    color: gray;
+}
+.new-account-btn{
+    padding: 12px;
+    border-radius: 18px;
+    color: white;
+    background-color: #5243C0;
+    cursor: pointer;
+    border:1px solid #5243C0;
+}
+.arrowbtn{
+    position: relative;
+    top: 23px;
+    left: 12px;
+}
+.table-container{
+    width: 57%;
+    border: 1px solid #f4f3f7;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #f4f3f7;
+    margin-bottom: 10px;
+}
+.checkbox-icon{
+    color: #fff;
+}
+
+.name-text{
+    position: relative;
+    bottom: 9px;
+    left: 23px;
+}
+.activeTable{
+    background-color: white;
+    box-shadow: 1px 3px 5px lightgrey;
+}
+.rectangle{
+    padding: 6px 0 4px 2px;
+    border-radius: 5px;
+}
+.table-container:hover .checkbox-icon{
+    color: #5243C0;
+}
+.table-container:hover{
+    background-color: #fff;
+    box-shadow: 1px 3px 5px lightgrey;
+}

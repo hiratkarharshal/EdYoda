@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+    background-color: #f2f6ff;
+    font-family: 'Raleway', sans-serif;
+}
+/*Header CSS started*/
+header{
+    width: 100%;
+    padding: 16px 78px;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 0 1px 1px #ccc;
+}
+a.logo{
+    text-decoration: none;
+}
+.logo-container {
+    display: flex;
+}
+.logo h3{
+    font-size: 32px;
+    margin: 0px;
+    font-weight: 1000;
+    color: #0084ff;
+    background-image: linear-gradient(269deg, #0048ff, #0096ff),linear-gradient(#000, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+.logo p{
+    color: #000;
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 500;
+    font-style: italic;
+}
+.dropdown{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+.dropdown i {
+    cursor: pointer;
+    padding-top: 0px;
+    padding-left: 8px;
+}
+.dropdown-text {
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    padding-left: 60px;
+}
+.dropdown-value{
+    visibility: hidden;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background-color: #fff;
+    min-width: 250px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    z-index: 1;
+    opacity: 0;
+}
+.dropdown-value a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-value a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-value {
+    visibility: visible;
+    opacity: 1;
+}
+/*Header CSS End*/
+/*filter started*/
+.main-container{
+    padding-top: 8%;
+}
+.filter-section{
+    width: 80%;
+    margin: auto;
+}
+.heading-filter{
+    color: #000;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+.categories-container {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 16px;
+}
+.filter-text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.categories-list {
+    margin-top: 10px;
+}
+.category-item{
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    color: #0084ff;
+    padding: 6px 14px;
+    width: auto;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    border-radius: 15px;
+}
+.category-item:hover {
+    background-color: #0084ff;
+    color: #fff;
+}
+/*filter end*/
+/*card section start*/
+.card-section{
+    width: 80%;
+    margin: auto;
+}
+#card-data {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-container{
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    width: calc(427px - 7px);
+    height: 400px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 168, 255, 0.3);
+}
+.card-img {
+    width: 100%;
+    height: 176px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card-content {
+    padding: 16px 24px;
+}
+.card-title{
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+    margin: 0;
+
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.auth-wrapper {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.card-author {
+    color: #0096ff;
+    font-size: 14px;
+    font-style: Italic;
+    font-weight: 500;
+}
+.card-date {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0, 0, 0, 0.973);
+    margin: 4px 0;
+}
+
+#footer{
+    background-color: #172146;
+    padding: 80px 16%;
+}

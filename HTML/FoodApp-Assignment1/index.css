@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEE2DC;
+}
+html{
+    scroll-behavior: smooth;
+}
+header ul {
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5D001E;
+}
+header li {
+    float: left;
+}
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 18px;
+    text-decoration: none;
+}
+ul li a{
+    font-size: 19px;
+}
+.navbar{
+    background-color: #5D001E;
+    padding: 17px 9px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbarText{
+    color: white;
+    margin-left: 2%
+}
+.navbarText:hover{
+    background-color: #E3AFBC;
+    color: black;
+}
+section{
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
