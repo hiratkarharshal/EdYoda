@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+.player-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+#team-details{
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 2px 2px 5px grey;
+    display: grid;
+    border-radius: 10px;
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: blanchedalmond;
+}
+table{
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+tr:nth-child(even){background-color: #f2f2f2;}
+  
+tr:hover {background-color: #ddd;}
+  
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: firebrick;
+    color: white;
+  }
+.team-squad{
+    text-align: center;
+    margin: 5px;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 29px;
+}
+.player-price{
+    display: flex;
+    justify-content: space-between;
+}
+.name-teams{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+.player-price{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+.team-logo{
+    border: 1px solid blueviolet;
+    background-color: aliceblue;
+}
+
+.logo{
+    height:150px;
+}
+.footer-main {
+    position: relative !important;
+}
+.squad-name-head{
+    font-family: 'Cookie', cursive;
+    font-size: 71px;
+}
